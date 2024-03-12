@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#ebe1c5 ;
+    height: 1500px;
+}
+
+body:nth-child(2){
+    font-family: "Play", sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+
+nav{
+    font-family: Prata, sans-serif;
+    box-sizing: border-box;
+    background-color:#ebcc6e;
+    width: 100%;
+    border-radius: 20px;
+    position: sticky;
+    top:32px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size:40px ;
+    margin-right:30px;
+}
+
+.telefono{
+right: 0;
+padding-top: 9px;
+color: green;
+font-size: 20px;
+position: fixed;
+top: 0px;
+background-color: #ebe1c5;
+width: 100%;
+}
+
+#Foto_massalud{
+    width: 20%;
+    height: 25%;
+    float: left;
+}
+
+p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   padding-top: 20px;
+   font-size: 22px;
+}
+ 
+h3{
+    margin-top: 30px;
+    left: 0;
+    font-size: 34px;
+}
+
+h5{
+    font-size:20px ;
+    padding-top: 15px;
+}
+
+.bloque{
+    padding-left: 50px;
+    padding-top:75px;
+    top: 0;
+    float: left;
+}
+
+.contenedor {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    border: 2px solid green;
+}
+
+.foto1 {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 100px;
+}
+
+.foto2 {
+    position: absolute;
+    right: 0;
+
+}
+
+.foto3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.foto4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.titulo{
+    padding-top: 40px;
+    padding-left: 1350px;
+}
+
+#uno{
+z-index:1 ;
+position: absolute;
+left: 1350px;
+}
+
+#dos{
+position: absolute;
+z-index: 2;
+left: 1450px;
+bottom: -380px;
+}
+
+#tres{
+position: absolute;
+z-index: 3;
+left: 1550px;
+bottom: -600px;
+}
