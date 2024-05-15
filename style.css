@@ -1,0 +1,155 @@
+body {
+  background-image: url(imagenes/fondo-body.png);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.borde {
+  background-image: url(imagenes/fondo.borde.jpg);
+  width: 900px;
+  height: 890px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.titulo {
+  width: 300px;
+}
+
+.caja {
+  background-image: url(imagenes/fondo.gif);
+  width: 600px;
+  height: 600px;
+  border: solid 2px blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.caja div {
+  width: 40px;
+  height: 40px;
+}
+
+.invasor {
+  background-image: url("imagenes/allien.gif");
+  background-size: cover;
+}
+
+.nave {
+  background-image: url("imagenes/nave.png");
+  background-size: cover;
+}
+
+.laser {
+  background-image: url("imagenes/laser.jpg");
+  background-size: 50px;
+}
+
+.laser_enemigo {
+  background-image: url("imagenes/laser-enemigo.png");
+  background-size: 50px;
+}
+
+.explosion {
+  background-image: url("imagenes/explosion.gif");
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  color: rgb(255, 217, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.caratula_izquierda {
+  background-image: url("imagenes/caratula.jpg");
+  flex-wrap: wrap;
+  width: 300px;
+  height: 890px;
+  margin-top: 10px;
+}
+
+.caratula_derecha {
+  background-image: url("imagenes/caratula.jpg");
+  flex-wrap: wrap;
+  justify-content: right;
+  width: 300px;
+  height: 890px;
+  margin-top: 10px;
+
+}
+
+.resultado {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 25px;
+}
+
+.derrota {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+}
+
+.oculto {
+  display: none;
+}
+
+.volver {
+  display: none;
+}
+
+.boton {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 35vh;
+  display: inline-block;
+  background-color: rgba(96, 0, 187, 0.228);
+  border: none;
+  border-radius: 5px;
+  font-family: "Press Start 2P", system-ui;
+  color: rgb(255, 217, 0);
+}
+
+button:hover {
+  background-color: #0056b3;
+  width: 150px;
+  height: 50px;
+}
+
+.siguiente_oculto {
+  display: none;
+}
+
+.victoria {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+}
